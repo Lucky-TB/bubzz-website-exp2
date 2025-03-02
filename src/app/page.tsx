@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaMusic, FaLightbulb, FaVideo, FaMicrophone, FaMapMarkerAlt, FaPlay, FaArrowRight, FaInstagram, FaTiktok, FaYoutube, FaSoundcloud } from 'react-icons/fa';
+import './fonts.css';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
